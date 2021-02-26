@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import * as yup from 'yup';
+import './App.css';
 
 import { Route, Link, Switch } from 'react-router-dom';
 
@@ -98,6 +99,7 @@ useEffect(() => {
         <div className='nav-links'>
           {/* links for home page and form */}
           <Link to='/'>Home</Link>
+          <br></br>
           <Link to='/pizza'>Form</Link>
         </div>
       </nav>

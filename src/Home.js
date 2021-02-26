@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { useHistory } from 'react-router-dom'
+import Pizza from './Assets/Pizza.jpg'
 
 export default function Home() {
     // click handler that navigates me to '/pizza'
@@ -15,9 +16,11 @@ export default function Home() {
         <div className='home-wrapper'>
             <img
                 className='home-image'
-                src='https://via.placeholder.com/150'
+                src={Pizza}
                 alt=''
+                width={800}
             />
+            <br></br>
             <button
                 onClick={routeToHome}
                 className='md-button home-button'

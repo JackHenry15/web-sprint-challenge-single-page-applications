@@ -56,6 +56,7 @@ const onChange = evt => {
                             type='checkbox'
                         />
                     </label>
+                    <br></br>
                     <label>Pepperoni:&nbsp;
                         <input
                             checked={values.pepperoni}
@@ -64,6 +65,7 @@ const onChange = evt => {
                             type='checkbox'
                         />
                     </label>
+                    <br></br>
                     <label>Mushrooms:&nbsp;
                         <input
                             checked={values.mushrooms}
@@ -72,6 +74,7 @@ const onChange = evt => {
                             type='checkbox'
                         />
                     </label>
+                    <br></br>
                     <label>Sausage:&nbsp;
                         <input
                             checked={values.sausage}
