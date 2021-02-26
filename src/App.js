@@ -44,12 +44,11 @@ export default function App(props) {
 
 const postNewOrder = newOrder => {
   axios
-  .post(`https://reqres.in/api/users`, newOrder)
+  .post(`https://reqres.in/api/orders`, newOrder)
   .then(res => {
     setOrders([
       ...orders, res.data
     ])
-    console.log(orders)
   })
   .catch(err => {
     console.log('error', err);
@@ -86,6 +85,7 @@ const formSubmit = () => {
     sausage: [].filter(term => formValues[term])
   }
   postNewOrder(newOrder)
+  console.log(orders);
 }
 
 useEffect(() => {

@@ -31,8 +31,11 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+    provides a match to the current url like route, using a hook. Getting access to route data without rendering a route
 1. How would you explain form validation to someone who has never programmed before?
+    making sure that the input values are matching to what the program was expecting
 1. In 1-2 sentences, define end to end testing.
+    testing the program from beginning to end in order to replicate user scenarios. Helps validate data and intergration.
 
 ## Instructions
 
@@ -62,9 +65,9 @@ Your finished project must include all of the following requirements:
 
 Implement the following tests in Cypress:
 
-- [ ] test that you can add text to the box
-- [ ] test that you can select multiple toppings
-- [ ] test that you can submit the form
+- [x ] test that you can add text to the box
+- [ x] test that you can select multiple toppings
+- [x ] test that you can submit the form
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
